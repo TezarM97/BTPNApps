@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TestingApps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutbtpn">PT Bank BTPN Tbk adalah anak usaha Sumitomo Mitsui Banking Corporation yang berkantor pusat di Jakarta. Untuk mendukung kegiatan bisnisnya, hingga akhir tahun 2020, perusahaan ini memiliki 61 kantor cabang, 264 kantor cabang pembantu, 141 titik pembayaran, dan 216 ATM yang tersebar di seluruh Indonesia.</string>
+</resources>

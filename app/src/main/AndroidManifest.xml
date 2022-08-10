@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testingapps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_apps"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_apps"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestingApps"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".view.ViewContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.AddDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.EditDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MenuUtamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
